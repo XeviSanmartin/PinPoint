@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">PinPoint</string>
+
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="favourites">Favourites</string>
+    <string name="near">Near</string>
 </resources>
