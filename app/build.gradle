@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.architectcoders.myplaces'
+    namespace 'com.architectcoders.pinpoint'
     compileSdk 33
 
     defaultConfig {
-        applicationId "com.architectcoders.myplaces"
+        applicationId "com.architectcoders.pinpoint"
         minSdk 24
         targetSdk 33
         versionCode 1

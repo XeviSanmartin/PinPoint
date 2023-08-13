@@ -1,4 +1,4 @@
-package com.architectcoders.myplaces.ui.theme
+package com.architectcoders.pinpoint.ui.theme
 
 import androidx.compose.material3.Typography
 import androidx.compose.ui.text.TextStyle

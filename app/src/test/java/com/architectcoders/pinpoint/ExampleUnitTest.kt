@@ -1,4 +1,4 @@
-package com.architectcoders.myplaces
+package com.architectcoders.pinpoint
 
 import org.junit.Test
 
