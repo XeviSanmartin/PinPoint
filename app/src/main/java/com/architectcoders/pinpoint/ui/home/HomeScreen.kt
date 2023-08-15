@@ -1,6 +1,5 @@
 package com.architectcoders.pinpoint.ui.home
 
-import android.widget.GridLayout
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
@@ -18,7 +17,6 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.architectcoders.pinpoint.ui.theme.black
-import com.architectcoders.pinpoint.ui.theme.white
 
 @Composable
 fun HomeScreen(viewModel: HomeViewModel = HomeViewModel(), onItemClicked: (Int) -> Unit) {
@@ -30,7 +28,9 @@ fun HomeScreen(viewModel: HomeViewModel = HomeViewModel(), onItemClicked: (Int) 
             fontSize = 24.sp,
             fontWeight = FontWeight.Bold,
             textAlign = TextAlign.Center,
-            modifier = Modifier.fillMaxWidth().padding(8.dp)
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(8.dp)
         )
         LazyVerticalGrid(columns = GridCells.Fixed(2)) {
             items(categories) { category ->
@@ -43,5 +43,5 @@ fun HomeScreen(viewModel: HomeViewModel = HomeViewModel(), onItemClicked: (Int) 
 @Preview(showBackground = true, backgroundColor = 0xFFFFFFFF, heightDp = 1000, widthDp = 500)
 @Composable
 fun Preview() {
-    HomeScreen()
+    HomeScreen() {}
 }

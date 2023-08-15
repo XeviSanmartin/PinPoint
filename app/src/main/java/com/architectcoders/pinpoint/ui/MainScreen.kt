@@ -55,7 +55,7 @@ fun MainScreenNavConfigurations(
             navController = navController,
             startDestination = BottomNavigationScreen.Home.route
         ) {
-            composable(BottomNavigationScreen.Home.route) { HomeScreen() }
+            composable(BottomNavigationScreen.Home.route) { HomeScreen() {} }
             composable(BottomNavigationScreen.Search.route) { Text("Search") }
             composable(BottomNavigationScreen.Favourites.route) { Text("Favourites") }
             composable(BottomNavigationScreen.Near.route) { Text("Near") }

@@ -84,6 +84,5 @@ fun MyPreview() {
 private val fakeModel = CategoryItemUiModel(
     0,
     "",
-    "Cities",
-    true
+    "Cities"
 )

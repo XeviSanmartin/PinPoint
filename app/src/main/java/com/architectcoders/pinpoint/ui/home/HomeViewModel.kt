@@ -14,10 +14,10 @@ class HomeViewModel : ViewModel() {
 
     init {
         _categories.value = listOf(
-            CategoryItemUiModel(1, "", "Cities", false),
-            CategoryItemUiModel(2, "", "Restaurants", false),
-            CategoryItemUiModel(3, "", "Monuments", false),
-            CategoryItemUiModel(4, "", "Discos", false)
+            CategoryItemUiModel(1, "", "Cities"),
+            CategoryItemUiModel(2, "", "Restaurants"),
+            CategoryItemUiModel(3, "", "Monuments"),
+            CategoryItemUiModel(4, "", "Discos") ,
         )
     }
 }
