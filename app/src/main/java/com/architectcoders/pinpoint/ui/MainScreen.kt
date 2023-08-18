@@ -26,6 +26,7 @@ import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import com.architectcoders.pinpoint.navigation.BottomNavigationScreen
 import com.architectcoders.pinpoint.ui.home.HomeScreen
+import com.architectcoders.pinpoint.ui.near.NearScreen
 import com.architectcoders.pinpoint.ui.theme.white
 
 @Composable
@@ -58,10 +59,7 @@ fun MainScreenNavConfigurations(
             composable(BottomNavigationScreen.Home.route) { HomeScreen() {} }
             composable(BottomNavigationScreen.Search.route) { Text("Search") }
             composable(BottomNavigationScreen.Favourites.route) { Text("Favourites") }
-            composable(BottomNavigationScreen.Near.route) { Text("Near") }
-//            composable(BottomNavigationScreen.Home.route) { HomeScreen() }
-//            composable(BottomNavigationScreen.Search.route) { SearchScreen() }
-//            composable(BottomNavigationScreen.Favourites.route) { FavouritesScreen() }
+            composable(BottomNavigationScreen.Near.route) { NearScreen() }
         }
     }
 }

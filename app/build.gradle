@@ -3,6 +3,7 @@ import com.architectcoders.pinpoint.Libs
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'com.google.android.libraries.mapsplatform.secrets-gradle-plugin'
 }
 
 android {
@@ -62,6 +63,9 @@ dependencies {
     implementation Libs.AndroidX.Compose.navigation
 
     implementation(Libs.Coil.coil)
+
+    implementation Libs.AndroidX.Compose.maps
+    implementation Libs.Maps.maps
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'

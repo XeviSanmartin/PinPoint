@@ -37,6 +37,7 @@ object Libs {
             private const val ui_version = "1.4.2"
             private const val material_version = "1.1.1"
             private const val navigation_version = "2.5.3"
+            private const val maps_version = "2.11.4"
 
             const val ui = "androidx.compose.ui:ui:$ui_version"
             const val debug_ui = "androidx.compose.ui:ui-tooling:$ui_version"
@@ -44,6 +45,7 @@ object Libs {
             const val material = "androidx.compose.material:material:$ui_version"
             const val material3 = "androidx.compose.material3:material3:$material_version"
             const val navigation = "androidx.navigation:navigation-compose:$navigation_version"
+            const val maps = "com.google.maps.android:maps-compose:$maps_version"
         }
 
         object Navigation {
@@ -59,6 +61,12 @@ object Libs {
             const val ktx = "androidx.room:room-ktx:$version"
             const val compiler = "androidx.room:room-compiler:$version"
         }
+    }
+
+    object Maps {
+        private const val version = "18.1.0"
+
+        const val maps = "com.google.android.gms:play-services-maps:$version"
     }
 
     object JavaX {
