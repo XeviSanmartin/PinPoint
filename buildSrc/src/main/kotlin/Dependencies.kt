@@ -93,4 +93,10 @@ object Libs {
 
         const val coil = "io.coil-kt:coil-compose:$version"
     }
+
+    object Lottie {
+        private const val version = "6.1.0"
+
+        const val lottie = "com.airbnb.android:lottie-compose:$version"
+    }
 }

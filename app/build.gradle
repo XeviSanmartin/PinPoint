@@ -61,9 +61,9 @@ dependencies {
     implementation Libs.AndroidX.Compose.material3
     implementation Libs.AndroidX.Compose.navigation
 
-    implementation(Libs.Coil.coil)
+    implementation Libs.Coil.coil
 
-    implementation(Libs.Lottie.lottie)
+    implementation Libs.Lottie.lottie
 
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
